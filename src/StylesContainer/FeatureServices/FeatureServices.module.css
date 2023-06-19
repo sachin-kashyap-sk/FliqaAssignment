@@ -1,0 +1,92 @@
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1%;
+}
+
+.firstText {
+  font-family: "Itoya-Bold";
+  font-size: 30px;
+  color: #4c696d;
+}
+
+.secText {
+  font-family: "Itoya-Light";
+  font-size: 15px;
+  color: #0c0c0c;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: red; */
+  padding-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  /* justify-content: space-around; */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 20%;
+  overflow: hidden;
+  box-shadow: 10%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 102.2%;
+  text-align: center;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.secTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 102.2%;
+  text-align: center;
+  color: #4c696d;
+  padding-top: 1%;
+}
+
+.popularContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.popularText {
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #000000;
+}
+
+.text {
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #4c696d;
+}

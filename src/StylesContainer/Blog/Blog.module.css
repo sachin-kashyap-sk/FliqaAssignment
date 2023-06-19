@@ -1,0 +1,65 @@
+.imageText {
+  background: #000000;
+  opacity: 0.68;
+  border-radius: 11px;
+  position: relative;
+  height: 35vh;
+  width: 100%;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.firstText {
+  color: "#ffffff";
+}
+
+.trending {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 3%;
+}
+
+.trendingText {
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 114%;
+  color: #354547;
+}
+
+.trendContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.covidText {
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 114%;
+  color: #354547;
+}
+
+.blogText {
+  font-family: "Itoya-Bold";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #4c696d;
+}
+
+.secBlogText {
+  font-family: "Itoya-Light";
+  font-size: 18px;
+  line-height: 23px;
+  color: #0c0c0c;
+}

@@ -1,0 +1,49 @@
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bestText {
+  font-family: "Itoya-Bold";
+  font-size: 25px;
+  line-height: 42px;
+  font-weight: 600;
+  text-align: center;
+  color: #4c696d;
+  padding-top: 2%;
+}
+.secText {
+  font-family: "Itoya-Light";
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background: #badcdc;
+  box-shadow: inset 0px -243px 124px #ffffff;
+  width: 100%;
+  padding-left: 2%;
+  padding-top: 2%;
+  justify-content: space-around;
+  border-bottom: 2px solid #ada3a3;
+  padding-bottom: 3%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 37vh;
+  width: 12%;
+  background: #ffffff;
+  box-shadow: 4px 5px 9px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  overflow: hidden;
+  /* padding: 1%; */
+}

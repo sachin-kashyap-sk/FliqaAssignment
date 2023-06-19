@@ -1,0 +1,92 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  border-bottom: 2px solid #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  width: 100%;
+}
+
+.subText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+  background-color: #000000;
+  border-radius: 23px;
+  height: 32vh;
+  box-shadow: 2%;
+  /* justify-content: space-between; */
+}
+
+.profileFirstText {
+  color: #ffffff;
+  padding-top: 2%;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 2%;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+}
+
+.findText {
+  font-family: "Itoya-Bold";
+  font-size: 30px;
+  /* text-align: center; */
+  color: #4c696d;
+}
+
+.findTheBest {
+  font-family: "Itoya-Light";
+  font-size: 20px;
+  /* line-height: 23px; */
+  color: #0c0c0c;
+}
+
+.seeMore {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* line-height: 29px; */
+}

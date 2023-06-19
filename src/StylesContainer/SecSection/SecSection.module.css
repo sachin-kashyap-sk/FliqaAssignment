@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstText {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 76px;
+  text-align: center;
+  color: #000000;
+  padding-top: 1%;
+}
+
+.secText {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  color: #4c696d;
+}
+
+.input {
+  display: flex;
+  width: 40%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 0.3%;
+  text-align: center;
+  font-family: "Josefin Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding-top: 1%;
+}
+
+.searchBtn {
+  color: #ffffff;
+  background-color: #221010;
+  border: 1px solid #000000;
+  border-radius: 34px;
+  width: 170px;
+  padding: 1%;
+}

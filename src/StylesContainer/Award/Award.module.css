@@ -1,0 +1,31 @@
+.mainContainer {
+  display: flex;
+  background-color: #ddf8f3;
+  padding: 2%;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.leftSec {
+  display: flex;
+  flex-direction: row;
+  background-color: #4e99a4;
+  /* width: 50%; */
+  padding: 4%;
+  justify-content: space-between;
+  border-radius: 10px;
+  height: 33vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 1%;
+}
