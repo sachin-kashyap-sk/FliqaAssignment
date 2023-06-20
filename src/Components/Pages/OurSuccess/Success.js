@@ -8,6 +8,7 @@ import comFour from "../../../Assets/testimonial/comFour.png";
 import comFive from "../../../Assets/testimonial/comFive.png";
 import bannerNew from "../../../Assets/testimonial/bannerNew.png";
 import bannerSec from "../../../Assets/testimonial/bannerSec.png";
+import LeftSection from "../Footer/LeftSection";
 const data = [
   {
     id: 1,
@@ -71,6 +72,7 @@ const Success = () => {
       >
         <img width="100%" src={bannerSec} alt="bannerSec" />
       </Box>
+      <LeftSection />
     </>
   );
 };

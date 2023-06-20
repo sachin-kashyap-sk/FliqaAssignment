@@ -1,0 +1,96 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #131514;
+}
+
+.firstInner {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+.neverText {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+.inTouch {
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  padding-top: 1%;
+}
+
+.secInner {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: #000; */
+  padding-top: 3%;
+}
+
+.neverMiss {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+.texts {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+  color: #ffffff;
+}
+
+.thirdInner {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 30%;
+  padding-top: 3%;
+  /* background-color: #ffffff; */
+}
+
+.unorderedList {
+  list-style: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+
+.footerText{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+/* or 123% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
